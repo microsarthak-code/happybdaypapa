@@ -57,11 +57,13 @@ document.getElementById("bgMusic");
 
 if(startBtn){
 
-startBtn.addEventListener("click",()=>{
+startBtn.addEventListener("click", () => {
 
-try{
-music.play();
-}catch(err){}
+music.volume = 0.6;
+
+music.play().catch(err => {
+console.log("Audio blocked until user gesture");
+});
 
 currentPage = 1;
 showPage(currentPage);
