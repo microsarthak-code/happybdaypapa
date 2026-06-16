@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Papa ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- PARTICLES -->
+
+<div id="particles"></div>
+
+<!-- MUSIC -->
+
+<audio id="bgMusic" loop>
+    <source src="assets/birthday-music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- LOADER -->
+
+<div id="loader">
+
+    <h1>❤️ Papa ❤️</h1>
+
+    <p>Loading Memories...</p>
+
+</div>
+
+<!-- BOOK -->
+
+<div id="book">
+
+    <!-- PAGE 1 -->
+
+    <section class="page active">
+
+        <div class="cover-page">
+
+            <h1 class="main-title">
+                The Story Of Papa
+            </h1>
+
+            <h2>
+                Celebrating 48 Wonderful Years
+            </h2>
+
+            <p>
+                A special journey made with love by Monu
+            </p>
+
+            <button id="startJourney">
+                Open The Book
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 2 -->
+
+    <section class="page">
+
+        <div class="chapter">
+
+            <h1>📖 Chapter 1</h1>
+
+            <h2>
+                Ek Kahani Jo 48 Saal Pehle Shuru Hui...
+            </h2>
+
+            <p class="story">
+
+                48 years ago, a beautiful story began.
+
+                A story of strength,
+                sacrifice,
+                courage,
+                and unconditional love.
+
+                A story that became our Papa.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 3 -->
+
+    <section class="page">
+
+        <div class="chapter">
+
+            <h1>👦 Young Papa</h1>
+
+            <p>
+
+                Har great journey ek sapne se shuru hoti hai.
+
+                A young dreamer.
+                A hardworking soul.
+                A person destined to become the hero of our family.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 4 -->
+
+    <section class="page">
+
+        <div class="chapter">
+
+            <h1>🦸 The Hero Of Our Family</h1>
+
+            <p>
+
+                Not all heroes wear capes.
+
+                Some wake up early,
+                work tirelessly,
+                and silently sacrifice everything
+                for their family.
+
+                That hero is you, Papa.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 5 -->
+
+    <section class="page gallery-page">
+
+        <h1>📸 Beautiful Memories</h1>
+
+        <div class="gallery">
+
+            <div class="photo-card">
+                <img src="assets/photo1.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo2.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo3.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo4.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo5.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo6.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo7.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo8.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo9.jpg">
+            </div>
+
+            <div class="photo-card">
+                <img src="assets/photo10.jpg">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 6 -->
+
+    <section class="page">
+
+        <div class="chapter">
+
+            <h1>🙏 Thank You Papa</h1>
+
+            <ul class="gratitude-list">
+
+                <li>Thank you for every sacrifice.</li>
+
+                <li>Thank you for every lesson.</li>
+
+                <li>Thank you for every smile.</li>
+
+                <li>Thank you for always believing in me.</li>
+
+                <li>Thank you for being my Papa.</li>
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 7 -->
+
+    <section class="page">
+
+        <div class="chapter">
+
+            <h1>✨ 48 Reasons You're Amazing</h1>
+
+            <div id="reasonsContainer">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 8 -->
+
+    <section class="page celebration">
+
+        <h1>🎉 Happy 48th Birthday Papa 🎉</h1>
+
+        <h2>
+            May your smile never fade.
+        </h2>
+
+        <button id="celebrateBtn">
+
+            Launch Fireworks
+
+        </button>
+
+        <canvas id="fireworks"></canvas>
+
+    </section>
+
+    <!-- PAGE 9 -->
+
+    <section class="page">
+
+        <div class="letter">
+
+            <h1>💌 A Letter From Monu</h1>
+
+            <p>
+
+                Papa,
+
+                Words will never be enough
+                to express how much you mean to me.
+
+                Whatever I become in life,
+                your teachings will always be my foundation.
+
+                I am proud to be your child.
+
+                Happy Birthday Papa ❤️
+
+            </p>
+
+            <h2>
+                — Monu
+            </h2>
+
+        </div>
+
+    </section>
+
+    <!-- PAGE 10 -->
+
+    <section class="page">
+
+        <div class="ending">
+
+            <h1>
+                The Story Continues...
+            </h1>
+
+            <p>
+
+                Every new day creates
+                another beautiful page
+                in our story.
+
+            </p>
+
+            <h2>
+
+                Happy Birthday Papa ❤️
+
+            </h2>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- CONTROLS -->
+
+<div class="controls">
+
+    <button id="prevBtn">
+        ◀
+    </button>
+
+    <button id="nextBtn">
+        ▶
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
